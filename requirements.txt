@@ -1,6 +1,7 @@
+matplotlib
 altair
 pandas
 streamlit
-matplotlib.pyplot
-plotly.express
+
+plotly
 graphviz
