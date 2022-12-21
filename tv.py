@@ -35,7 +35,9 @@ if page == "Page 1":
     st.write('This dataset is a valuable resource for anyone interested in exploring the most popular movies on Netflix and understanding the trends and preferences of the platforms users. It can be used for a variety of purposes, including data analysis, machine learning projects, and more.')
     st.markdown('**findings**')
     st.write('the Top Rated TV Shows dataset on Kaggle also includes details on the genre of each show, the number of episodes, and the average runtime of each episode. This allows you to see which genres are most popular, how long the average episode is, and how much content each show has. You can also use this dataset to compare the ratings of different shows and see which ones have the highest overall scores. This can be a great way to discover new shows to watch or to see how your favorite shows stack up against the competition. Additionally, you can use this dataset to analyze trends in television over time and see how the industry has changed. For example, you might be able to see if certain genres are becoming more popular or if there is a trend toward shorter episode lengths. Overall, the Top Rated TV Shows dataset on Kaggle provides a wealth of information for anyone interested in television and its history.')
-
+    st.markdown('**assignment created by:** ')
+    st.write('mohammed alraisi')
+    st.write('ali aljardani')
 elif page == "Page 2":
     showname = st.selectbox("Select your tv show",sample1['origin_country'].unique())
     st.title('page 2')
